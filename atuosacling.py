@@ -247,8 +247,8 @@ if __name__ == "__main__":
 
 vpc_id='vpc-135bab69'
 secid='sg-0e16d8c80e55887bc'
-key='greyv19'
-loadbalancername='greycampusv19'
+key='testload'
+loadbalancername='testload'
 path=''
 create=CreateResource(loadbalancername,vpc_id,secid,key,path)
 host=create.create_ec2()
